@@ -24,9 +24,18 @@ Google-Gemini-AI Chatbot is a Node.js application demonstrating the integration 
 - A Google Cloud project with the Vertex AI API enabled.
 
 ### Project Setup:
-1. Clone this repository: `git clone https://github.com/srikavya26/Google-Gemini-AI-.git`
-2. Navigate to the project directory: `cd Google-Gemini-AI-`
-3. Install dependencies: `npm install` (or `yarn install`)
+1. Clone this repository:
+   ```bash
+    git clone https://github.com/srikavya26/Google-Gemini-AI-.git
+   ```
+3. Navigate to the project directory:
+   ```bash
+   cd Google-Gemini-AI-
+   ```
+5. Install dependencies:
+   ```bash
+   npm install` (or `yarn install`)
+   ```
 
 ### Configuration:
 - Create a file named `.env` (not included in Git for security reasons) and add the following environment variables:
