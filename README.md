@@ -3,8 +3,23 @@
 ## Description
 Google-Gemini-AI Chatbot is a Node.js application demonstrating the integration of Google's cutting-edge Gemini API to create an AI-powered conversational experience. Leveraging Vertex AI's capabilities, this chatbot offers natural language processing and generation for engaging interactions.
 
+# Table of Contents
+1. [Description](#description)
+2. [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Project Setup](#project-setup)
+    - [Configuration](#configuration)
+    - [Run the Chatbot](#run-the-chatbot)
+3. [Using the Gemini API](#using-the-gemini-api)
+4. [Code Structure](#code-structure)
+5. [Customization](#customization)
+6. [Further Exploration](#further-exploration)
+7. [Deployment (Optional)](#deployment-optional)
+8. [Contributing](#contributing)
+
+
 ## Getting Started
-### Prerequisites:
+# Prerequisites:
 - Node.js and npm (or yarn) installed on your system.
 - A Google Cloud project with the Vertex AI API enabled.
 
