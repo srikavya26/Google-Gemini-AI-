@@ -26,11 +26,11 @@ Google-Gemini-AI Chatbot is a Node.js application demonstrating the integration 
 ### Project Setup:
 1. Clone this repository:
    ```bash
-    git clone https://github.com/srikavya26/Google-Gemini-AI-.git
+    git clone https://github.com/srikavya26/Google-Gemini-AI-Chatbot.git
    ```
 3. Navigate to the project directory:
    ```bash
-   cd Google-Gemini-AI-
+   cd Google-Gemini-AI-Chatbot
    ```
 5. Install dependencies:
    ```bash
