@@ -1,75 +1,70 @@
-# Google Gemini AI Chatbot with Node.js
+# Getting Started with Create React App
 
-## Description
-Google-Gemini-AI Chatbot is a Node.js application demonstrating the integration of Google's cutting-edge Gemini API to create an AI-powered conversational experience. Leveraging Vertex AI's capabilities, this chatbot offers natural language processing and generation for engaging interactions.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Table of Contents
-1. [Description](#description)
-2. [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Project Setup](#project-setup)
-    - [Configuration](#configuration)
-    - [Run the Chatbot](#run-the-chatbot)
-3. [Using the Gemini API](#using-the-gemini-api)
-4. [Code Structure](#code-structure)
-5. [Customization](#customization)
-6. [Further Exploration](#further-exploration)
-7. [Deployment (Optional)](#deployment-optional)
-8. [Contributing](#contributing)
+## Available Scripts
 
+In the project directory, you can run:
 
-## Getting Started
-# Prerequisites:
-- Node.js and npm (or yarn) installed on your system.
-- A Google Cloud project with the Vertex AI API enabled.
+### `npm start`
 
-### Project Setup:
-1. Clone this repository:
-   ```bash
-    git clone https://github.com/srikavya26/Google-Gemini-AI-Chatbot.git
-   ```
-3. Navigate to the project directory:
-   ```bash
-   cd Google-Gemini-AI-Chatbot
-   ```
-5. Install dependencies:
-   ```bash
-   npm install` (or `yarn install`)
-   ```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Configuration:
-- Create a file named `.env` (not included in Git for security reasons) and add the following environment variables:
-    - `GEMINI_ENDPOINT`: The URL of your Gemini endpoint (obtain from Vertex AI).
-    - `GEMINI_PROJECT_ID`: Your Google Cloud project ID.
-    - (Optional) `GEMINI_API_KEY`: Your Gemini API key (if required for authentication).
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Run the Chatbot:
-- Start the chatbot server: `node app.js`
+### `npm test`
 
-## Using the Gemini API
-This project utilizes Google's Vertex AI platform and its Gemini API, which provides access to powerful generative AI models. Here's a basic overview of how it works:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. **Prompt Engineering**: Craft prompts to guide the model in generating desired responses, considering conversation context.
-2. **API Request**: Utilize Node.js libraries like axios to send HTTP requests to the Gemini API endpoint, including prompts and configuration options.
-3. **Response Processing**: Parse JSON response from the API, containing generated text for chatbot responses.
-4. **Iteration**: Continuously loop through prompts and responses to maintain conversation flow.
+### `npm run build`
 
-## Code Structure
-- `app.js`: Main application file, responsible for user input handling, interaction with Gemini API, and response generation.
-- (Optional) Additional helper files or modules for specific functionalities.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Customization
-This project offers a foundation for building customized AI chatbots by:
-- Modifying prompts to tailor responses to specific domains or use cases.
-- Integrating with external APIs or services for enhanced capabilities.
-- Implementing user authentication and session management for personalized experiences.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Further Exploration
-- Refer to official Gemini API documentation for detailed instructions and advanced features: [Gemini API Documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/gemini)
-- Explore the Vertex AI platform for other AI and machine learning tools: [Vertex AI Platform](https://cloud.google.com/vertex-ai)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Deployment (Optional)
-Consider deploying your chatbot to a cloud platform like Google Cloud Run or AWS Lambda for wider accessibility.
+### `npm run eject`
 
-## Contributing
-Feel free to submit pull requests with improvements or additional features!
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
